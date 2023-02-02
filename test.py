@@ -12,13 +12,13 @@ import sys
 
 bin = "bsq"
 
-solved_maps = "tests/maps-intermediate/mouli_maps_solved"
-tested_maps = "tests/maps-intermediate/mouli_maps"
+solved_maps = "seemouli/maps-intermediate/mouli_maps_solved"
+tested_maps = "seemouli/maps-intermediate/mouli_maps"
 
-solved_inputs = "tests/inputs/solved"
-tested_inputs = "tests/inputs/tested.txt"
+solved_inputs = "seemouli/inputs/solved"
+tested_inputs = "seemouli/inputs/tested.txt"
 
-tmp = "tests/tmp"
+tmp = "seemouli/tmp"
 testname = "test-"
 
 timeout = 15
