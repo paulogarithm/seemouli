@@ -128,8 +128,8 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 :
         bin = sys.argv[1]
 
-    # os.system("make re | printf \"\"")
-    # os.system("make clean | printf \"\"")
+    os.system("make re | printf \"\"")
+    os.system("make clean | printf \"\"")
 
     normal_test_result = normal_tests()
     print()
